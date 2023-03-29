@@ -27,12 +27,6 @@ export default function Footer() {
                 </li>
 
                 <li className="social_list_item">
-                    <a className="social_list_link" href="https://github.com/raresbuc">
-                        <i className="fa-brands fa-github"></i>
-                    </a>
-                </li>
-
-                <li className="social_list_item">
                     <a className="social_list_link" href="https://www.instagram.com/raressbucur/">
                         <i className="fa-brands fa-instagram"></i>
                     </a>
