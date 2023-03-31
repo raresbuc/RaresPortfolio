@@ -27,7 +27,7 @@ export default function Main() {
                 <h1 className="section_title section_title_intro">
                     Hi, I am <br></br><strong>Rares Bucur</strong>
                 </h1>
-                <p className="section_subtitle section_subtitle_intro">3D Environment Artist</p>
+                <p className="section_subtitle section_subtitle_intro">3D Artist</p>
                 <img className="intro_img" src={introimg} alt="a picture of Rares Bucur" />
             </section>
 
@@ -61,7 +61,7 @@ export default function Main() {
                 <div className="about_me_body">
                     <p>I have a strong passion for art and technology, being up to date with anything new within the domain and eager to get better every day at what I do.</p>
                     <p>I have always had a strong connection with games, movies and art in general, making me wonder how all these beautiful environments and objects are created. I am always thinking about how I can digitally reproduce what I see in the physical world and I also spend a lot of my free time observing how others reproduce physical phenomena, especially within the video game industry and interactive media.</p>
-                    <p>I also consider myself being open-minded, with the ability to adapt to every type of person in a professional manner in order to get the task at hand done with the experience of working with multiple teams over the years.</p>
+                    <p>I also consider myself a very open-minded person, capable of adapting to all kinds of unexpected situations inside or outside the workspace.</p>
                 </div>
            
                 <img className="about_me_img" src={aboutMeImg} alt="Rares sitting on a bench" />
