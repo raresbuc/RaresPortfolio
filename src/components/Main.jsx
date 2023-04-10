@@ -1,6 +1,7 @@
 import React from "react"
 import introimg from "/src/assets/IMG20221109165504.jpg"
 import aboutMeImg from "/src/assets/IMG20220525203458.jpg"
+import countryside from "/src/assets/path_thumb.png"
 import AR from "/src/assets/ar1.png"
 import laser from "/src/assets/laser_thumbnail.png"
 import scope from "/src/assets/scope_thumbnail.png"
@@ -76,6 +77,19 @@ export default function Main() {
                 {/* 3DArt */}
                 <h3 className="section_subtitle_work_levelDesign">Prop & Environment Art</h3>
                 <div className="portfolio level-design">
+                    {/* Portfolio item 9 */}
+                    <div className="proj-item">
+                        <a href="https://www.artstation.com/artwork/xD3kJm" className="portfolio_item" target="_blank">
+                            <img src={countryside} alt="" className="portfolio_img" />
+                        </a>
+                        <div className="proj-item-description">
+                            <h4>Countryside by the river</h4>
+                            <p className="proj-item-description-body">I was inspired by a photo of a countryside I took a while ago. Sometimes all it takes is a small forest by the river to create a beautiful scenery. Composited and rendered in Unreal, with foliage from Quixel Megascans.</p>
+                            <p><span className="span-bold">Software used</span>: Unreal Engine, Quixel Megascans, Sketchfab</p>
+                        </div>
+                    </div>
+
+
                     {/* Portfolio item 8 */}
                     <div className="proj-item">
                         <a href="https://www.artstation.com/artwork/Jvv59d" className="portfolio_item" target="_blank">
