@@ -1,6 +1,7 @@
 import React from "react"
 import introimg from "/src/assets/IMG20221109165504.jpg"
 import aboutMeImg from "/src/assets/IMG20220525203458.jpg"
+import arteon from "/src/assets/arteon_hdri.png"
 import countryside from "/src/assets/path_thumb.png"
 import AR from "/src/assets/ar1.png"
 import laser from "/src/assets/laser_thumbnail.png"
@@ -10,7 +11,6 @@ import moto from "/src/assets/moto1.png"
 import helmet from "/src/assets/helmet1.png"
 import handheld from "/src/assets/handheld.jpg"
 import penTablet from "/src/assets/tablet6.jpg"
-// import olympoid from "/src/assets/skeleton_1.192.jpg"
 import movieWatchlist from "/src/assets/movieWatchlist.png"
 import quizzical from "/src/assets/quizzical.png"
 import airbnb from "/src/assets/airbnb.png"
@@ -77,6 +77,19 @@ export default function Main() {
                 {/* 3DArt */}
                 <h3 className="section_subtitle_work_levelDesign">Prop & Environment Art</h3>
                 <div className="portfolio level-design">
+                    {/* Portfolio item 10 */}
+                    <div className="proj-item">
+                        <a href="https://www.artstation.com/artwork/XgG3q3" className="portfolio_item" target="_blank">
+                            <img src={arteon} alt="" className="portfolio_img" />
+                        </a>
+                        <div className="proj-item-description">
+                            <h4>Volkswagen Arteon R 2.0 TSI OPF 4Mot DSG</h4>
+                            <p className="proj-item-description-body">With elegant exterior styling and a 320-hp turbocharged engine, you will find the Arteon delivers a premium driving experience all its own. High-poly model with 4k textures made in Maya, textured in Substance, rendered in Vray.</p>
+                            <p><span className="span-bold">Software used</span>: Autodesk Maya, Substance Painter, Photoshop, Vray</p>
+                        </div>
+                    </div>
+
+
                     {/* Portfolio item 9 */}
                     <div className="proj-item">
                         <a href="https://www.artstation.com/artwork/xD3kJm" className="portfolio_item" target="_blank">
